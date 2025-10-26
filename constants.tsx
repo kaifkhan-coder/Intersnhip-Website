@@ -15,17 +15,6 @@ export const INTERNSHIPS: Internship[] = [
     ),
   },
   {
-    id: 'cybersecurity',
-    title: 'Cybersecurity',
-    price: 2499,
-    description: 'Learn to protect systems and networks from digital attacks. Dive into ethical hacking and defense.',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-      </svg>
-    ),
-  },
-  {
     id: 'dsa',
     title: 'Data Structures & Algorithms',
     price: 3499,
@@ -58,17 +47,11 @@ export const INTERNSHIPS: Internship[] = [
         </svg>
     )
   },
-  {
-    id: 'cloud',
-    title: 'Cloud Computing',
-    price: 3499,
-    description: 'Gain expertise in cloud platforms like AWS or Azure, focusing on infrastructure, deployment, and services.',
-     icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-        </svg>
-    )
-  }
+
 ];
 
 export const YOUR_WHATSAPP_NUMBER = '9326865425'; // Replace with your actual WhatsApp number with country code
+export const YOUR_EMAIL = 'khankaifcom551@gmail.com';
+export const YOUR_ADDRESS = 'Kurla garden hari masjid chawl no:156 near kurla court, Mumbai';
+// TODO: Replace this with your actual Google Form link
+export const GOOGLE_FORM_LINK = 'https://docs.google.com/forms/d/e/1FAIpQLSc.../viewform';

@@ -2,9 +2,11 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Stats from './components/Stats';
 import Internships from './components/Internships';
 import About from './components/About';
 import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 const App: React.FC = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -19,10 +21,12 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
+        <Stats />
         <Internships />
         <About />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { YOUR_WHATSAPP_NUMBER } from '../constants';
 
@@ -8,7 +7,7 @@ interface WhatsAppButtonProps {
 }
 
 const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({ title, price }) => {
-  const message = `Hello NeuraPeak, I'm interested in the "${title}" internship program (Price: ₹${price}). Could you please provide more details about this hybrid internship? Thank you!`;
+  const message = `Hello NeuraMind, I'm interested in the "${title}" internship program (Price: ₹${price}). Could you please provide more details about this hybrid internship? Thank you!`;
   const whatsappUrl = `https://wa.me/${YOUR_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
   return (
