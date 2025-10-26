@@ -3,7 +3,7 @@ import React from 'react';
 import { YOUR_WHATSAPP_NUMBER, YOUR_EMAIL, YOUR_ADDRESS } from '../constants';
 
 const Footer: React.FC = () => {
-  const whatsappUrl = `https://wa.me/${YOUR_WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello NeuraMind!")}`;
+  const whatsappUrl = `https://wa.me/${YOUR_WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello NeuraPeak!")}`;
   
   return (
     <footer id="contact" className="bg-slate-900/50 border-t border-slate-800 pt-16 pb-8">
@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-1">
             <h3 className="text-2xl font-bold text-white tracking-wider">
-              Neura<span className="text-indigo-400">Mind</span>
+              Neura<span className="text-indigo-400">Peak</span>
             </h3>
             <p className="text-slate-400 mt-4">Bridging the gap between education and industry with cutting-edge tech internships.</p>
           </div>
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-slate-800 text-center text-slate-500">
-           <p>&copy; {new Date().getFullYear()} NeuraMind. All Rights Reserved.</p>
+           <p>&copy; {new Date().getFullYear()} NeuraPeak. All Rights Reserved.</p>
            <p className="mt-2 text-sm">
               Designed & Developed by{' '}
               <a

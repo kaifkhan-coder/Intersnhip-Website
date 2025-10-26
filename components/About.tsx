@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <section id="about" className="py-20 md:py-28">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-white">Why NeuraMind?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">Why NeuraPeak?</h2>
           <p className="text-slate-400 mt-2">We bridge the gap between education and industry.</p>
            <div className="mt-4 h-1 w-24 bg-indigo-500 mx-auto rounded"></div>
         </div>

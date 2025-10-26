@@ -51,7 +51,7 @@ export const INTERNSHIPS: Internship[] = [
 ];
 
 export const YOUR_WHATSAPP_NUMBER = '9326865425'; // Replace with your actual WhatsApp number with country code
-export const YOUR_EMAIL = 'khankaifcom551@gmail.com';
+export const YOUR_EMAIL = 'contact@neurapeak.com';
 export const YOUR_ADDRESS = 'Kurla garden hari masjid chawl no:156 near kurla court, Mumbai';
 // TODO: Replace this with your actual Google Form link
 export const GOOGLE_FORM_LINK = 'https://docs.google.com/forms/d/e/1FAIpQLSc.../viewform';

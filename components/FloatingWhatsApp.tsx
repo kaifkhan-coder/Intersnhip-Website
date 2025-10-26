@@ -3,7 +3,7 @@ import React from 'react';
 import { YOUR_WHATSAPP_NUMBER } from '../constants';
 
 const FloatingWhatsApp: React.FC = () => {
-  const message = `Hello NeuraMind! I'd like to inquire about your internship programs.`;
+  const message = `Hello NeuraPeak! I'd like to inquire about your internship programs.`;
   const whatsappUrl = `https://wa.me/${YOUR_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
   return (
